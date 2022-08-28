@@ -13,7 +13,6 @@ function App() {
   return (
     
     <BrowserRouter>
-    <HashRouter basename="/">
    <Navbar/>
    <Routes>
    <Route path="/shop" element={<Products/>}/>
@@ -21,7 +20,6 @@ function App() {
    <Route path="/counter" element={<Numbers/>}/>
    <Route path="/signup" element={<SignUp/>}/>
    </Routes>
-   </HashRouter>
    </BrowserRouter>
   );
   
