@@ -10,6 +10,9 @@ function Navbar() {
               
                 <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
                     <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <Link to="/home"><a class=" links nav-link active text-white" aria-current="page" >Home</a></Link>
+                        </li>
                         <li class="nav-item ">
                         <Link to="/shop"><a class=" links nav-link active text-white" aria-current="page" >Shop</a></Link>
                         </li>
